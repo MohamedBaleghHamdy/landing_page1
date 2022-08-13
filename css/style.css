@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-image: linear-gradient(rgba(9, 9, 9, 0.4), rgba(6, 6, 6, 0.3)),
+    url(../images/hero.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 10vw;
+  margin-top: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.6s;
+}
+nav ul li a:hover {
+  color: orangered;
+}
+/* nav*/
+.hero {
+  position: absolute;
+  top: 40%;
+}
+.hero h1 {
+  font-weight: 600;
+  color: #fff;
+  word-spacing: 8px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  line-height: 150%;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.hero a {
+  text-decoration: none;
+  color: rgb(202, 83, 19);
+  border: solid 1px orangered;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+.hero a:hover {
+  background-color: orangered;
+  color: #fff;
+}
+/*hero*/
+section {
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+hr {
+  width: 100px;
+  margin-left: 45%;
+  border: solid 1px orangered;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-weight: 500;
+  color: orangered;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+}
+section div p {
+  line-height: 150%;
+  color: #888;
+  margin-bottom: 30px;
+}
+section .feat {
+  color: #888;
+}
+section .feat h4 {
+  color: orangered;
+  font-size: 1.1rem;
+
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+section .feat i {
+  color: orangered;
+  font-size: 1.1rem;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+/*section1*/
+
+.meal {
+  padding: 0px !important;
+  margin: -5px;
+  overflow: hidden;
+}
+
+.meal img {
+  width: 100%;
+
+  transform: scale(1.1);
+
+  transition: 0.3s;
+}
+.meal img:hover {
+  transform: scale(1);
+}
+/*section2*/
+.left {
+  padding-right: 30px;
+  text-align: right;
+}
+.left img {
+  width: 40%;
+}
+.right {
+  padding-top: 50px;
+}
+.step {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.step div {
+  width: 50px;
+
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: -20px;
+  line-height: 50px;
+  text-align: center;
+  border: solid 2px orangered;
+}
+.cit {
+  display: flex;
+}
+.cit i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: orangered;
+}
+h3 {
+  font-weight: 500;
+  color: orangered;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+.people {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(20, 1, 1, 0.7), rgba(6, 6, 6, 0.8)),
+    url(../images/back-customers.jpg);
+  color: #fff;
+  text-align: left;
+}
+.people h2 {
+  color: #fff;
+  text-align: center;
+}
+.people1 i {
+  font-size: 40px;
+  color: #fff;
+}
+.people1 p {
+  color: #fff;
+
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.people1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.abc {
+  display: flex;
+  align-items: center;
+}
+.abc i {
+  margin-right: 15px;
+  margin-top: -15px;
+  color: orangered;
+}
+
+.book {
+  border: solid 1px #888;
+}
+.book .aa {
+  color: orangered;
+}
+.book hr {
+  margin-top: -20px;
+  width: 100%;
+  border: solid 2px #888;
+  margin-left: 0px;
+}
+.book h4 {
+  margin: 10px 0px 10px 0px;
+  font-weight: 500;
+  font-size: 30px;
+  color: orangered;
+  text-transform: uppercase;
+}
+.book button {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: orangered;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 10px;
+}
+.book {
+  margin-right: 6%;
+  margin-left: 2%;
+}
+form {
+  padding-top: 50px;
+  border: solid 1px #888;
+}
+input,
+select,
+textarea {
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: #888;
+  margin-left: -200px;
+}
+label {
+  margin-bottom: 20px;
+  color: orangered;
+}
+form button {
+  float: left;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: orangered;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: black;
+}
+footer h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 20px 0px 20px 0px;
+}
