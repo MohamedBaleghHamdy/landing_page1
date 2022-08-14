@@ -275,3 +275,55 @@ footer h1 {
   font-size: 20px;
   padding: 20px 0px 20px 0px;
 }
+@media (max-width: 480px) {
+
+  nav img {
+  
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    margin-right: 4px;
+   
+  
+    text-transform: uppercase;
+    transition: all 0.6s;
+  }
+  nav ul li a:hover {
+    color: orangered;
+  }
+  /* nav*/
+  .hero {
+    position: absolute;
+    top: 40%;
+  }
+  .hero h1 {
+    font-weight: 600;
+    color: #fff;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .hero a {
+    text-decoration: none;
+    color: rgb(202, 83, 19);
+    border: solid 1px orangered;
+    padding: 4px 10px;
+    border-radius: 15px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+  }
+  .hero a:hover {
+    background-color: orangered;
+    color: #fff;
+  }
+  /*hero*/
+}
+
